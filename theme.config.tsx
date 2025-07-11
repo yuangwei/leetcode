@@ -62,7 +62,7 @@ const config: DocsThemeConfig = {
           `
         }}></script>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7120269047777683"
-          crossorigin="anonymous"></script>
+          crossOrigin="anonymous"></script>
       </>
     )
   },
