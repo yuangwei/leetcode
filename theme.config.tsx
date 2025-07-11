@@ -61,6 +61,8 @@ const config: DocsThemeConfig = {
           gtag('config', 'G-9H3VQ97WB3');
           `
         }}></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7120269047777683"
+          crossorigin="anonymous"></script>
       </>
     )
   },
