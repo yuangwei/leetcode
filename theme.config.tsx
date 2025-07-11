@@ -6,11 +6,11 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <h1 className='nx-font-bold'>JavaScript Leetcode</h1>,
   project: {
-    link: 'https://github.com/gavinleige/leetcode',
+    link: 'https://github.com/yuangwei/leetcode',
   },
-  docsRepositoryBase: 'https://github.com/gavinleige/leetcode/tree/main',
+  docsRepositoryBase: 'https://github.com/yuangwei/leetcode/tree/main',
   footer: {
-    text: (<span>{new Date().getFullYear()} © <a href="https://gavinleige.com" target='_blank'>Gavin Wei</a></span>),
+    text: (<span>{new Date().getFullYear()} © <a href="https://leetcode.js.org">leetcode.js.org</a></span>),
   },
   head(props) {
     return (
@@ -49,7 +49,18 @@ const config: DocsThemeConfig = {
           name="twitter:image"
           content="https://leetcode.js.org/banner.png"
         />
-        <meta name="author" content="Gavin Wei" />
+        <meta name="google-adsense-account" content="ca-pub-7120269047777683"></meta>
+        <meta name="author" content="Yuang Wei" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9H3VQ97WB3"></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-9H3VQ97WB3');
+          `
+        }}></script>
       </>
     )
   },
